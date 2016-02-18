@@ -1,0 +1,32 @@
+{
+  "name": "fanzorena/google-play-in-app-billing-verification",
+  "type": "library",
+  "description": "Tool for Google In-app Billing validation",
+  "keywords": [
+    "google play",
+    "validation",
+    "purchase",
+	"in-app billing"
+  ],
+  "homepage": "",
+  "support": {
+    "issues": "https://github.com/fanzorena/google-play-in-app-billing-verification/issues",
+    "source": "https://github.com/fanzorena/google-play-in-app-billing-verification"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "",
+      "email": "",
+      "homepage": ""
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"    
+  },  
+  "autoload": {
+    "psr-4": {
+      "GooglePlay\\InAppBilling\\": "library/GooglePlay/InAppBilling"
+    }
+  }  
+}
